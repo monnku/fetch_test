@@ -8,7 +8,7 @@
     async function logMovies() {
       const response = await fetch("https://pascha.glitch.me/getchat");
       const movies = await response.json();
-      console.log(movies);
+      document.write(movies);
     }
   </script>
 </body>
