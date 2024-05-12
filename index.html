@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>fetch_tester</title>
+</head>
+<body>
+  <script>
+    async function logMovies() {
+      const response = await fetch("https://pascha.glitch.me/getchat");
+      const movies = await response.json();
+      console.log(movies);
+    }
+  </script>
+</body>
